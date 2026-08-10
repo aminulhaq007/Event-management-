@@ -1,0 +1,32 @@
+[
+  {
+    "_id": {"$oid": "660d14bf8f3f2b1d4c8b4561"},
+    "title": "National Tech Innovation Hackathon",
+    "description": "Collaborate with cross-department groups to build open-source answers resolving contemporary ecological and economic real-world challenges using microservice infrastructures.",
+    "date": {"$date": "2026-10-15T09:00:00.000Z"},
+    "venue": "Main Engineering Lab Complex III",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800",
+    "createdAt": {"$date": "2026-06-06T12:00:00.000Z"},
+    "updatedAt": {"$date": "2026-06-06T12:00:00.000Z"}
+  },
+  {
+    "_id": {"$oid": "660d14bf8f3f2b1d4c8b4562"},
+    "title": "UI/UX Enterprise Designing Seminar",
+    "description": "Learn comprehensive industry UI standards, modern design workflows, interactive system visual rules, and responsive interface creation processes.",
+    "date": {"$date": "2026-11-02T14:00:00.000Z"},
+    "venue": "Department Conference Theater Room A",
+    "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?q=80&w=800",
+    "createdAt": {"$date": "2026-06-06T12:05:00.000Z"},
+    "updatedAt": {"$date": "2026-06-06T12:05:00.000Z"}
+  },
+  {
+    "_id": {"$oid": "660d14bf8f3f2b1d4c8b4563"},
+    "title": "Annual Inter-University Athletic Championship",
+    "description": "The definitive campus-wide sports arena track event testing physical endurance, tactical coordination, and team spirit across regional campus groups.",
+    "date": {"$date": "2026-12-20T08:00:00.000Z"},
+    "venue": "Central Sports Complex Gymnasium Stadium Area",
+    "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800",
+    "createdAt": {"$date": "2026-06-06T12:10:00.000Z"},
+    "updatedAt": {"$date": "2026-06-06T12:10:00.000Z"}
+  }
+]

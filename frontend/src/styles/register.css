@@ -1,0 +1,137 @@
+.registration-view-container {
+  padding: 60px 20px;
+  background-color: var(--color-bg);
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-card-box {
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  border: 1px solid #E2E8F0;
+}
+
+.registration-header-meta {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #F1F5F9;
+  padding-bottom: 20px;
+}
+
+.registration-header-meta h2 {
+  color: var(--color-secondary);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.target-event-summary-badge {
+  background-color: #EFF6FF;
+  border-left: 4px solid var(--color-primary);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin-top: 15px;
+}
+
+.target-event-summary-badge p {
+  color: #1E3A8A;
+  font-size: 0.95rem;
+}
+
+.sub-meta-text {
+  font-size: 0.85rem !important;
+  color: #2563EB !important;
+  margin-top: 4px;
+}
+
+/* Form Structural Inputs Design Layouts */
+.student-registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-input-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #475569;
+  text-transform: uppercase;
+}
+
+.form-input-group input, .form-input-group select {
+  padding: 11px 16px;
+  border: 1px solid #CBD5E1;
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  color: var(--color-text-main);
+  transition: var(--transition-fast);
+  background-color: #ffffff;
+}
+
+.form-input-group input:focus, .form-input-group select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.form-row-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-action-buttons-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #F1F5F9;
+}
+
+.btn-submit {
+  padding: 12px 24px;
+}
+
+/* Validation System Message States Alert Modals */
+.form-status-alert-box {
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.form-status-alert-box.success {
+  background-color: #DCFCE7;
+  color: #15803D;
+  border: 1px solid #BBF7D0;
+}
+
+.form-status-alert-box.error {
+  background-color: #FEE2E2;
+  color: #991B1B;
+  border: 1px solid #FCA5A5;
+}
+
+@media (max-width: 576px) {
+  .registration-card-box {
+    padding: 24px;
+  }
+  
+  .form-row-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

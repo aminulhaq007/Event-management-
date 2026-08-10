@@ -1,0 +1,18 @@
+[
+  {
+    "studentName": "Amin Khan",
+    "email": "amin.cs@student.uet.edu",
+    "department": "Computer Science",
+    "semester": "4",
+    "eventId": {"$oid": "660d14bf8f3f2b1d4c8b4561"},
+    "createdAt": {"$date": "2026-06-06T15:00:00.000Z"}
+  },
+  {
+    "studentName": "Yaseen Ahmad",
+    "email": "yaseen.it@student.uet.edu",
+    "department": "Information Technology",
+    "semester": "4",
+    "eventId": {"$oid": "660d14bf8f3f2b1d4c8b4561"},
+    "createdAt": {"$date": "2026-06-06T15:15:00.000Z"}
+  }
+]
